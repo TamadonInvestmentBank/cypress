@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Test Environment For Softwares and applications using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TamadonInvestmentBank/cypress.git"
+  },
+  "author": "Hossein Mousavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TamadonInvestmentBank/cypress/issues"
+  },
+  "homepage": "https://github.com/TamadonInvestmentBank/cypress#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "husky": "^7.0.0"
+  }
+}
