@@ -1,4 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "HELLO WORLD!"
+echo "Initializing Husky Pre Commit Hook";
+npm run pre-commit;
